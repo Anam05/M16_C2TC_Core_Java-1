@@ -15,7 +15,7 @@ public class Example2 {
 	 
 	    public static void main(String[] args)
 	    {
-	        int n = 16;
+	        int n = 5;
 	 
 	        System.out.println("The chosen place is "+ josephus(n));
 	    }
