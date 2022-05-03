@@ -8,11 +8,12 @@ public class Example6 {
 		Stack s= new Stack();
 		s.add(10);
 		s.add(20);
-		s.pop();
+		s.add(30);
 		System.out.println(s);
-		
-				
-
+		s.pop();
+		System.out.println(s);		
+		s.push(40);
+		System.out.println(s);
 	}
 
 }
