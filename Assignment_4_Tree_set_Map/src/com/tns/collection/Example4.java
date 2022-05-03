@@ -9,7 +9,7 @@ public class Example4 {
 		SortedSet s=new TreeSet();
 		s.add(45);
 		s.add(33);
-		s.add(12);
+		s.add(18);
 		System.out.println(s);
 
 

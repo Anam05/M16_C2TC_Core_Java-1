@@ -11,11 +11,13 @@ public class Example5 {
 		NavigableMap<Integer,String>s=new TreeMap<Integer,String>();
 		s.put(15 , "Hritik");
 		s.put(12, null);
-		//s.remove(12);
+		
 		System.out.println(s);
+		
+		s.remove(12);
+		System.out.println(s);
+		
 		System.out.println(s.lastEntry());
-
-
 	}
 
 }
