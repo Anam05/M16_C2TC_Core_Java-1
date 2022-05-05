@@ -9,6 +9,7 @@ public class Example2 {
 		a.add(11);
 		a.add("Hritik");
 		System.out.println(a);
+		
 		a.addFirst(12);
 		a.addLast("World");
 		System.out.println(a);

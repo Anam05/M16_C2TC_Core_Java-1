@@ -12,7 +12,6 @@ public class Example1 {
 		q.add(300);
 		q.add(40);
 		System.out.println(q);
-		
 		q.poll();
 		System.out.println(q);
 		
