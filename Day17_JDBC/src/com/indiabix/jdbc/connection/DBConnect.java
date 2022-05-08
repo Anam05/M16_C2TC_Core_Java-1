@@ -14,6 +14,7 @@ public class DBConnect {
 		String username="root";
 		String password="awesomehj@79";
 		String query="select*from Employee12";
+		
 		try
 		{
 			Class.forName(dbDriver);
