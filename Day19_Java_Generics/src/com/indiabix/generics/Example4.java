@@ -17,6 +17,7 @@ public class Example4 {
 		Iterator<Map.Entry<Integer,Integer>>itr=obj1.iterator();
 		while(itr.hasNext())
 		{
+			@SuppressWarnings("rawtypes")
 			Map.Entry e1=itr.next();
 			System.out.println(e1.getKey()+" " +e1.getValue());
 		}
