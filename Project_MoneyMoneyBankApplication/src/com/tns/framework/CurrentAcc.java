@@ -10,11 +10,11 @@ public abstract class CurrentAcc extends BankAcc
 	}
 	public void withdraw(float accBal)
 	{
-		System.out.println("Account no is: "+this.getAccNo()+" Account Name is: "+this.getAccNm()+"Saving Balance is: "+accBal+"Credit Limit is: "+creditLimit);
+		System.out.println("Account no is: "+this.getAccNo()+" Account Name is: "+this.getAccNm()+"Current Balance is: "+accBal+"Credit Limit is: "+creditLimit);
 	}
 	@Override
 	public String toString() {
-		return String.format("CurrentAcc [creditLimit=%s]", creditLimit);
+		return String.format("CurrentAcc [creditLimit=%s,toString()=%s]", creditLimit,super.toString());
 	}
 	
 

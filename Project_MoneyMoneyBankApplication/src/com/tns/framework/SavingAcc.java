@@ -17,7 +17,7 @@ public abstract class SavingAcc extends BankAcc
 		
 	@Override
 	public String toString() {
-		return String.format("SavingAcc [isSalaried=%s]", isSalaried);
+		return String.format("SavingAcc [isSalaried=%s,toString()=%s]", isSalaried,super.toString());
 	}
 
 }
